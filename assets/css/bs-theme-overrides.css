@@ -14,11 +14,16 @@
   --bs-info-text-emphasis: #5D2B0F;
   --bs-info-bg-subtle: #FBE2D4;
   --bs-info-border-subtle: #F6C4A8;
-  --bs-warning: #a139ff;
-  --bs-warning-rgb: 161,57,255;
+  --bs-warning: #ffc107;
+  --bs-warning-rgb: 255,193,7;
   --bs-warning-text-emphasis: #401766;
   --bs-warning-bg-subtle: #ECD7FF;
   --bs-warning-border-subtle: #D9B0FF;
+  --bs-project-tinytales: #A139FF;
+  --bs-project-tinytales-rgb: 161,57,255;
+  --bs-project-tinytales-text-emphasis: #401766;
+  --bs-project-tinytales-bg-subtle: #ECD7FF;
+  --bs-project-tinytales-border-subtle: #D9B0FF;
   --bs-light: #f8f9fa;
   --bs-light-rgb: 248,249,250;
   --bs-light-text-emphasis: #636464;
