@@ -40,7 +40,7 @@
 <body>
     <nav class="navbar navbar-expand-lg fixed-top bg-body portfolio-navbar" style="height: 71px;">
         <div class="container"><a class="navbar-brand logo" href="index.html" style="width: 250px;">
-                <picture><img src="assets/img/YING%20TIAN-black.png" width="32" height="32" style="width: 50%;height: auto;"></picture>
+                <picture><img class="img-fluid" src="assets/img/YING%20TIAN-black.png" style="height: auto;" width="60%"></picture>
             </a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navbarNav-2"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav-2">
                 <ul class="navbar-nav ms-auto">
@@ -52,11 +52,11 @@
             </div>
         </div>
     </nav>
-    <main class="page cv-page" style="margin: auto;padding: 88px 48px;max-width: 980px;">
+    <main class="page cv-page" style="margin: auto;padding: 88px 48px;">
         <div class="container py-4 py-xl-5" style="margin: auto;padding: 24px;">
             <div class="row gy-4 gy-md-0">
                 <div class="col-md-6 col-lg-6 offset-lg-0 d-md-flex align-items-md-center">
-                    <div style="max-width: 350px;">
+                    <div class="swing animated">
                         <p class="my-3">Hi there!</p>
                         <p class="fs-2 text-black my-3">I'm Ying Tian.<br>A UX researcher&nbsp;and designer thriving in Boston's vibrant culture.&nbsp;</p>
                         <h2 class="text-uppercase fw-bold"><a data-bss-hover-animate="bounce" class="me-3" href="mailto:yingtian.ux@gmail.com" style="color: var(--swiper-theme-color);border-top-left-radius: 66%;border-style: none;" target="_blank" data-bs-target="mailto:yingtian.ux@gmail.com"><i class="icon ion-android-mail text-primary"></i></a><a data-bss-hover-animate="bounce" class="me-3" href="https://www.linkedin.com/in/yingtian2025/" style="color: var(--swiper-theme-color);" target="_blank"><i class="icon ion-social-linkedin text-primary"></i></a>&nbsp; &nbsp; &nbsp;</h2>
@@ -64,14 +64,109 @@
                     </div>
                 </div>
                 <div class="col-auto col-md-6 col-lg-6 col-xl-6 offset-lg-0">
-                    <div style="max-width: 350px;"><img class="rounded-circle img-fluid w-100 fit-cover" data-aos="fade-up" src="assets/img/Avatars/Linkedin%20avatar.jpeg" style="border: 28px solid var(--bs-light-border-subtle);border-bottom-width: 17.5px;border-bottom-style: solid;"></div>
+                    <div style="max-width: 350px;"><img class="rounded-circle img-fluid w-100 fit-cover" src="assets/img/Avatars/Linkedin%20avatar.jpeg" style="border: 28px solid var(--bs-light-border-subtle);border-bottom-width: 17.5px;border-bottom-style: solid;"></div>
                 </div>
             </div>
         </div>
         <div class="container" style="padding: 24px;">
             <h4 class="fw-bold text-black mb-4" style="text-align: left;">My journey</h4>
             <p class="lead fs-6 text-start text-secondary w-lg-50">My journey in UX began with a background in Applied Psychology, which sparked my interest in understanding how people think and interact with technology.&nbsp;Since then, I've gained valuable experience working on a variety of projects, from designing features for smartphones at ZTE to overseeing UX enhancements for educational products at ALO7 that impacted millions of users.</p>
-            <p class="lead fs-6 text-start text-secondary w-lg-50">Most recently, I completed the UX Design Fellow program at Springboard, further honing my skills in user research, design thinking, and usability testing.&nbsp;I'm a big believer in the power of data and use tools like Figma, Sketch, and R Studio to create effective designs based on user insights.</p>
+            <p class="lead fs-6 text-start text-secondary w-lg-50">Most recently, I completed the UX Design Fellow program at Springboard, further honing my skills in user research, design thinking, and usability testing.&nbsp;I'm a big believer in the power of data and use tools like Figma, Sketch, and R Studio to create effective designs based on user insights.</p><style>
+  .year-circle {
+    width: 40px;
+    height: 40px;
+    background-color: #3498db;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  .timeline-info {
+    color: #2980b9;
+  }
+</style>
+
+<div class="container">
+  <div class="row text-center justify-content-center mb-5">
+    
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <div class="timeline-steps aos-init aos-animate" data-aos="fade-up">
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="year-circle">
+              <span class="year">2003</span>
+            </div>
+            <div class="timeline-info">
+              <p class="h6 mt-3 mb-1">Applied Psychology</p>
+              <p class="h6 text-muted mb-0 mb-lg-0">Zhejiang University</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="year-circle">
+              <span class="year">2006</span>
+            </div>
+            <div class="timeline-info">
+              <p class="h6 mt-3 mb-1">Interaction Designer</p>
+              <p class="h6 text-muted mb-0 mb-lg-0">ZTE</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="year-circle">
+              <span class="year">2011</span>
+            </div>
+            <div class="timeline-info">
+              <p class="h6 mt-3 mb-1">Senior UX Designer</p>
+              <p class="h6 text-muted mb-0 mb-lg-0">Longcheer & GYPSII</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="year-circle">
+              <span class="year">2012</span>
+            </div>
+            <div class="timeline-info">
+              <p class="h6 mt-3 mb-1">UX Manager</p>
+              <p class="h6 text-muted mb-0 mb-lg-0">ALO7</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="year-circle">
+              <span class="year">2015</span>
+            </div>
+            <div class="timeline-info">
+              <p class="h6 mt-3 mb-1"> </p>
+              <p class="h6 text-muted mb-0 mb-lg-0">Focused on personal and family matters</p>
+            </div>
+          </div>
+        </div>
+          <div class="timeline-step">
+          <div class="timeline-content">
+            <div class="year-circle">
+              <span class="year">2023</span>
+            </div>
+            <div class="timeline-info">
+              <p class="h6 mt-3 mb-1">UX Design Trainee</p>
+              <p class="h6 text-muted mb-0 mb-lg-0">SpringBoard</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+
         </div>
         <div class="container" style="padding: 24px;">
             <h4 class="fw-bold text-black mb-4" style="text-align: left;">What excites me most about UX?</h4>
@@ -103,7 +198,7 @@
         </div>
         <div class="container" style="padding: 24px;">
             <h4 class="fw-bold text-black mb-4" style="text-align: left;">Want to connect?</h4>
-            <p class="lead fs-6 text-start text-secondary w-lg-50">Feel free to reach out through the <a class="link-primary" href="mailto:yingtian.ux@gmail.com" target="_blank">Email</a>&nbsp;or find me on&nbsp;<a class="link-primary" href="https://www.linkedin.com/in/yingtian2025/" target="_blank">LinkedIn</a>!</p>
+            <p class="lead fs-6 text-start text-secondary w-lg-50">Feel free to reach out through the Email：<a class="link-primary" href="mailto:yingtian.ux@gmail.com" target="_blank">yingtian.ux@gmail.com</a>&nbsp;or find me on&nbsp;<a class="link-primary" href="https://www.linkedin.com/in/yingtian2025/" target="_blank">LinkedIn</a>!</p>
             <p class="lead fs-6 text-start text-secondary w-lg-50">I'm always eager to learn more about exciting projects and collaborate with talented folks.</p>
         </div>
     </main>
