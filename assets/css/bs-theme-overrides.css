@@ -30,7 +30,7 @@
   --bs-secondary-color-rgb: 112,112,112,0.75;
   --bs-tertiary-color: rgba(112,112,112,0.5);
   --bs-tertiary-color-rgb: 112,112,112,0.5;
-  --bs-body-font-family: Poppins, sans-serif;
+  --bs-body-font-family: 'Open Sans', sans-serif;
 }
 
 .btn-success {
